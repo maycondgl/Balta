@@ -24,7 +24,7 @@ namespace Calculator
             Console.WriteLine("5 - Potência");
             Console.WriteLine("6 - Sair do sistema");
 
-            Console.WriteLine("");
+            Console.WriteLine(" ");
 
             Console.WriteLine("------------------");
             Console.WriteLine("Selecione uma opção: ");
