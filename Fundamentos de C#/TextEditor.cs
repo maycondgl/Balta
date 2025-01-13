@@ -48,17 +48,13 @@
         {
             Console.Clear();
             Console.WriteLine(" Qual caminho do arquivo?");
-#pragma warning disable CS8600 
             string path = Console.ReadLine();
-#pragma warning restore CS8600
 
-#pragma warning disable CS8604 
             using (var file = new StreamReader(path))
             {
                 string text = file.ReadToEnd();
                 Console.WriteLine(text);
             }
-#pragma warning restore CS8604 
             Console.WriteLine("");
             Console.ReadLine();
             Menu();
@@ -89,12 +85,10 @@
 
             var path = Console.ReadLine();
 
-#pragma warning disable CS8604 
             using (var file = new StreamWriter(path))
             {
                 file.Write(text);
             }
-#pragma warning restore CS8604
 
             Console.WriteLine($" Arquivo [{path}] salvo com sucesso!");
             Console.ReadLine();
