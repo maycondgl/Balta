@@ -57,7 +57,7 @@ namespace Calculator
             Console.WriteLine("2ª valor: ");
             decimal v2 = decimal.Parse(Console.ReadLine()!);
 
-            Console.WriteLine("");
+            Console.WriteLine(" ");
 
             decimal resultado = v1 + v2;
             // Console.WriteLine("O resultado da soma é " + resultado);
