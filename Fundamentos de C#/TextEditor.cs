@@ -36,7 +36,7 @@
             switch (option)
             {
                 case 0:
-                    Console.WriteLine("Tenha um Bom dia, Volte sempre!");
+                    Console.WriteLine(" Tenha um Bom dia, Volte sempre!");
                     System.Environment.Exit(0); break;
                 case 1: Abrir(); break;
                 case 2: Editar(); break;
@@ -47,7 +47,7 @@
         static void Abrir()
         {
             Console.Clear();
-            Console.WriteLine("Qual caminho do arquivo?");
+            Console.WriteLine(" Qual caminho do arquivo?");
 #pragma warning disable CS8600 
             string path = Console.ReadLine();
 #pragma warning restore CS8600
@@ -85,7 +85,7 @@
         static void Salvar(string text)
         {
             Console.Clear();
-            Console.WriteLine("Qual caminho para salvar o arquivo?");
+            Console.WriteLine(" Qual caminho para salvar o arquivo?");
 
             var path = Console.ReadLine();
 
@@ -96,7 +96,7 @@
             }
 #pragma warning restore CS8604
 
-            Console.WriteLine($"Arquivo [{path}] salvo com sucesso!");
+            Console.WriteLine($" Arquivo [{path}] salvo com sucesso!");
             Console.ReadLine();
             Menu();
         }
