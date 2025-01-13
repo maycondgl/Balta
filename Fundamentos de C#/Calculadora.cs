@@ -15,7 +15,7 @@ namespace Calculator
 
             Console.WriteLine(">> CALCULADORA VIRTUAL <<");
 
-            Console.WriteLine("");
+            Console.WriteLine(" ");
 
             Console.WriteLine("1 - Soma");
             Console.WriteLine("2 - Subtração");
