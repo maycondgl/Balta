@@ -11,7 +11,7 @@
         {
             Console.Clear();
 
-            Console.WriteLine(">> EDITOR DE TEXTO <<");
+            Console.WriteLine(">> EDITOR DE TEXTO << ");
 
             Console.WriteLine("------------------------");
 
