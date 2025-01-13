@@ -22,11 +22,9 @@
 
             Console.WriteLine("Quanto tempo deseja contar?");
 
-#pragma warning disable CS8602
             string data = Console.ReadLine().ToLower();
             char type = char.Parse(data.Substring(data.Length - 1, 1));
             int time = int.Parse(data.Substring(0, data.Length - 1));
-#pragma warning restore CS8602
             int multiplier = 1;
 
             if (type == 'm')
